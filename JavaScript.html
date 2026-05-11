@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <title>JavascriptCrud</title>
+</head>
+<body>
+
+    <h1>JavaScript CRUD alkalmazás</h1>
+
+    <input
+        type="number"
+        id="idInput"
+        placeholder="id megadása"
+    >
+    <input
+        type="text"
+        id="nameInput"
+        placeholder="Név megadása"
+    >
+    <input
+        type="number"
+        id="megyeIdInput"
+        placeholder="Megye id megadása"
+    >
+
+    <button onclick="createItem()">
+        Hozzáadás
+    </button>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NEV</th>
+                <th>MEGYE</th>
+                <th>MUVELETEK</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody">
+
+        </tbody>
+
+    </table>
+
+    <script src="js/crud.js"></script>
+
+</body>
+</html>
