@@ -1,5 +1,6 @@
 <?php
 
+#nem a legjobb igy tarolni credential-t de ez volt a leggyorsabb megoldas
 $host = "192.168.1.69";
 $db   = "Web1Eloadas";
 $user = "web1eloadas";

@@ -4,6 +4,8 @@ import Crud from "./crud";
 
 import Calculator from "./calculator";
 
+import Axios from "./axios";
+
 
 function App() {
 
@@ -19,6 +21,11 @@ function App() {
             <Route
                 path="/calculator"
                 element={<Calculator />}
+            />
+
+            <Route
+                path="/axios"
+                element={<Axios />}
             />
 
         </Routes>
