@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Crud from "./crud";
 
@@ -12,22 +12,10 @@ function App() {
     return (
 
         <Routes>
-
-            <Route
-                path="/crud"
-                element={<Crud />}
-            />
-
-            <Route
-                path="/calculator"
-                element={<Calculator />}
-            />
-
-            <Route
-                path="/axios"
-                element={<Axios />}
-            />
-
+            <Route path="/" element={<Crud />} />
+            <Route path="/crud" element={<Crud />} />
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/axios" element={<Axios />} />
         </Routes>
     );
 }
