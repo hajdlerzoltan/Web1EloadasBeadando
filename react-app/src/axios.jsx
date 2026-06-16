@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "/Web1Eloadas/php/api.php";
+const API = "/php/api.php";
 
 export default function Crud() {
 
